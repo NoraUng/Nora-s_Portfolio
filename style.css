@@ -860,3 +860,50 @@ body::before {
     height: 200px;
   }
 }
+
+@media (max-width: 600px) {
+  .hero-section::before,
+  .education-section::before,
+  .skills-section::before,
+  .certificates-section::before,
+  .workHistory-section::before,
+  .contact-section::before {
+    width: 320px;
+    height: 320px;
+  }
+
+  .hero-section::after,
+  .education-section::after,
+  .skills-section::after,
+  .certificates-section::after,
+  .workHistory-section::after,
+  .contact-section::after {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 395px) {
+  .hero-section::before,
+  .education-section::before,
+  .skills-section::before,
+  .certificates-section::before,
+  .workHistory-section::before,
+  .contact-section::before {
+    width: 300px;
+    height: 300px;
+  }
+
+  .hero-section::after,
+  .education-section::after,
+  .skills-section::after,
+  .certificates-section::after,
+  .workHistory-section::after,
+  .contact-section::after {
+    width: 200px;
+    height: 200px;
+    bottom: -150px;
+    right: 65px;
+    left: -1px;
+  }
+}
