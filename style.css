@@ -539,7 +539,108 @@ nav .right a span {
     font-size: 13px;
   }
 }
+@media (max-width: 391px) {
+  /* NAVBAR */
+  nav {
+    padding: 0 20px;
+  }
 
+  nav .left a {
+    font-size: 20px;
+  }
+
+  nav .right a {
+    font-size: 20px;
+  }
+
+  nav .right a:last-child {
+    color: var(--text-color);
+    background-color: var(--background-color);
+  }
+
+  nav .right a span {
+    display: none;
+  }
+
+  /* SECTION 1: Hero */
+  .hero-section {
+    padding: 0 20px;
+  }
+
+  .hero-section .text h2 {
+    font-size: 60px;
+  }
+
+  /* SECTION 3: Skills */
+  .skills-section {
+    padding: 0 20px;
+  }
+
+  .skills-section .cells .cell span {
+    font-size: 15px;
+  }
+
+  /* SECTION 2: Education */
+  .education-section {
+    padding: 0 20px;
+  }
+
+  /* SECTION 5: Contact */
+  .contact-section {
+    padding: 0 20px;
+  }
+
+  /* SECTION 4: Work History */
+  .workHistory-section {
+    padding: 0 20px;
+  }
+
+  .workHistory-section .group {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .work-cards {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .work-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  }
+
+  .work-card .icon {
+    padding-left: 0;
+    font-size: 30px;
+  }
+
+  .work-card .content h3 {
+    font-size: 22px;
+    margin-top: 10px;
+  }
+
+  .work-card .meta,
+  .work-card ul {
+    font-size: 14px;
+  }
+
+  .languages-card {
+    width: 100%;
+    padding: 20px;
+    margin-top: 30px;
+  }
+
+  .language .label {
+    font-size: 13px;
+  }
+}
 /* =========================
   CODING DOODLE BACKGROUND
   ========================= */
