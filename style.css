@@ -910,6 +910,6 @@ body::before {
     width: 260px;
     height: 260px;
     bottom: -155px;
-    left: 30px;
+    left: 1px;
   }
 }
