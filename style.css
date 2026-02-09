@@ -900,7 +900,7 @@ body::before {
   .certificates-section::after,
   .workHistory-section::after,
   .contact-section::after {
-    width: 200px;
+    width: 150px;
     height: 200px;
     bottom: -150px;
     right: 65px;
