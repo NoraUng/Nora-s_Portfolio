@@ -620,16 +620,16 @@ body::before {
 .hero-section::before {
   width: 560px;
   height: 860px;
-  top: -150px;
-  left: -160px;
+  top: -120px;
+  left: 45px;
   background-image: var(--paint-yellow);
   opacity: 2.9;
 }
 .hero-section::after {
   width: 260px;
   height: 260px;
-  bottom: -90px;
-  right: -90px;
+  bottom: -190px;
+  right: 45px;
   background-image: var(--paint-yellow);
   opacity: 1.65;
   transform: rotate(15deg);
@@ -640,15 +640,15 @@ body::before {
   width: 480px;
   height: 480px;
   top: -150px;
-  right: -160px;
+  right: 45px;
   background-image: var(--paint-black);
   opacity: 0.82;
 }
 .education-section::after {
   width: 280px;
   height: 280px;
-  bottom: -100px;
-  left: -100px;
+  bottom: -150px;
+  left: 45px;
   background-image: var(--paint-orange);
   opacity: 0.66;
   transform: rotate(-12deg);
@@ -659,7 +659,7 @@ body::before {
   width: 500px;
   height: 500px;
   top: -160px;
-  left: -170px;
+  left: 45px;
   background-image: var(--paint-yellow);
   opacity: 0.85;
 }
@@ -667,7 +667,7 @@ body::before {
   width: 260px;
   height: 260px;
   bottom: -90px;
-  right: -90px;
+  right: 45px;
   background-image: var(--paint-yellow);
   opacity: 1.6;
   transform: rotate(-18deg);
@@ -678,15 +678,15 @@ body::before {
   width: 480px;
   height: 480px;
   top: -150px;
-  right: -160px;
+  right: 45px;
   background-image: var(--paint-orange);
   opacity: 0.62;
 }
 .certificates-section::after {
   width: 260px;
   height: 260px;
-  bottom: -95px;
-  left: -95px;
+  bottom: -155px;
+  left: 300px;
   background-image: var(--paint-black);
   opacity: 0.85;
   transform: rotate(10deg);
@@ -697,7 +697,7 @@ body::before {
   width: 520px;
   height: 520px;
   top: -170px;
-  left: -180px;
+  left: 45px;
   background-image: var(--paint-yellow);
   opacity: 1.9;
 }
@@ -705,7 +705,7 @@ body::before {
   width: 260px;
   height: 260px;
   bottom: -95px;
-  right: -95px;
+  right: 45px;
   background-image: var(--paint-yellow);
   opacity: 1.6;
   transform: rotate(20deg);
@@ -716,7 +716,7 @@ body::before {
   width: 480px;
   height: 480px;
   top: -150px;
-  right: -160px;
+  right: 45px;
   background-image: var(--paint-black);
   opacity: 0.82;
 }
@@ -724,7 +724,7 @@ body::before {
   width: 560px;
   height: 460px;
   bottom: -95px;
-  left: -95px;
+  left: 45px;
   background-image: var(--paint-orange);
   opacity: 0.65;
   transform: rotate(-14deg);
