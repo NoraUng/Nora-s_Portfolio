@@ -883,7 +883,7 @@ body::before {
   }
 }
 
-@media (max-width: 395px) {
+@media (max-width: 500px) {
   .hero-section::before,
   .education-section::before,
   .skills-section::before,
@@ -897,7 +897,6 @@ body::before {
   .hero-section::after,
   .education-section::after,
   .skills-section::after,
-  .certificates-section::after,
   .workHistory-section::after,
   .contact-section::after {
     width: 150px;
@@ -907,9 +906,9 @@ body::before {
     left: 40px;
   }
   .certificates-section::after {
-    width: 260px;
-    height: 260px;
+    width: 150px;
+    height: 150px;
     bottom: -155px;
-    left: 1px;
+    left: 65px;
   }
 }
