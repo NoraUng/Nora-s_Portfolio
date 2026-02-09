@@ -539,18 +539,18 @@ nav .right a span {
     font-size: 13px;
   }
 }
-@media (max-width: 391px) {
+@media (max-width: 395px) {
   /* NAVBAR */
   nav {
     padding: 0 20px;
   }
 
   nav .left a {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   nav .right a {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   nav .right a:last-child {
@@ -641,6 +641,7 @@ nav .right a span {
     font-size: 13px;
   }
 }
+
 /* =========================
   CODING DOODLE BACKGROUND
   ========================= */
