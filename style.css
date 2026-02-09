@@ -883,7 +883,7 @@ body::before {
   }
 }
 
-@media (max-width: 395px) {
+@media (max-width: 400px) {
   .hero-section::before,
   .education-section::before,
   .skills-section::before,
@@ -904,6 +904,6 @@ body::before {
     height: 200px;
     bottom: -150px;
     right: 65px;
-    left: -1px;
+    left: 40px;
   }
 }
