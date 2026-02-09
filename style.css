@@ -883,7 +883,7 @@ body::before {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 430px) {
   .hero-section::before,
   .education-section::before,
   .skills-section::before,
